@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_MemTracker">
+      <UniqueIdentifier>{b5776c2c-db1d-46d5-9008-6da020b46f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Trace">
+      <UniqueIdentifier>{3c9405a0-c00c-4c4d-abe5-1a9dccecf6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_ThreadHelper">
+      <UniqueIdentifier>{9848d88c-fcbc-4509-bffe-515490f4684b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>_Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadHelper.cpp">
+      <Filter>_ThreadHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="FileThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveOutThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatorThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WavePlayerMessenger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemTracker.h">
+      <Filter>_MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadHelper.h">
+      <Filter>_ThreadHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="FileThread.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveOutThread.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackThread.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinatorThread.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WavePlayerMessenger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
